@@ -54,10 +54,18 @@ namespace CleanCodeExersises
         /*
          * Solution to Be positive exersise
          */
-        public bool IsLoggedInClean()
+        public bool IsLoggedInClean(bool isLoggedIn)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            if (isLoggedIn)
+            {
+                System.Console.WriteLine("Succesfully logged in.");
+                return true;
+            }
+            else
+            {
+                System.Console.WriteLine("Failed to logged in.");
+                return false;
+            }
         }
         /*
          * Intermediate exercise
@@ -85,7 +93,7 @@ namespace CleanCodeExersises
             throw new NotImplementedException();
             //Write your solution here
         }
-        
+
         /*
          * Ternary exersise
          */
@@ -94,7 +102,8 @@ namespace CleanCodeExersises
             if (isPreordered == true)
             {
                 return 200.00;
-            } else
+            }
+            else
             {
                 return 350.00;
             }
