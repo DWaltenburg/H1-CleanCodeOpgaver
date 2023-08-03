@@ -56,16 +56,9 @@ namespace CleanCodeExersises
          */
         public bool IsLoggedInClean(bool isLoggedIn)
         {
-            if (isLoggedIn)
-            {
-                System.Console.WriteLine("Succesfully logged in.");
-                return true;
-            }
-            else
-            {
-                System.Console.WriteLine("Failed to logged in.");
-                return false;
-            }
+            string loginMessage = isLoggedIn ? "Succesfully logged in." : "Failed to logged in.";
+            Console.WriteLine(loginMessage);
+            return isLoggedIn;
         }
         /*
          * Intermediate exercise
@@ -88,10 +81,13 @@ namespace CleanCodeExersises
          * Solution to ohm Intermediate exercise
          * An intermediate Variable says a lot more them a long expression
          */
-        public bool eligibleClean()
+        public bool eligibleClean(Employee employee)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            bool eligible = (employee.Age > 55);
+            eligible &= (employee.YearsEmployed > 10);
+            eligible &= (employee.IsRetired);
+
+            return eligible;
         }
 
         /*
@@ -112,10 +108,9 @@ namespace CleanCodeExersises
          * Solution to Ternary exersise
          * Use a oneline Ternary.
          */
-        public double GetPriceClean()
+        public double GetPriceClean(bool isPreordered)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            return isPreordered ? 200.00 : 350.00;
         }
         /*
          * Strong type exersise - not done
