@@ -11,3 +11,17 @@ C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netco
 C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.dll
 C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.pdb
 C:\Users\lkri\source\repos\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.genruntimeconfig.cache
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.csproj.AssemblyReference.cache
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.AssemblyInfo.cs
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.dll
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.pdb
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.exe
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.deps.json
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.runtimeconfig.json
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.runtimeconfig.dev.json
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.dll
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\bin\Debug\netcoreapp3.1\CleanCodeExersises.pdb
+C:\Users\david\source\repos\H1-CleanCodeOpgaver\CleanCodeExersises\CleanCodeExersises\obj\Debug\netcoreapp3.1\CleanCodeExersises.genruntimeconfig.cache
