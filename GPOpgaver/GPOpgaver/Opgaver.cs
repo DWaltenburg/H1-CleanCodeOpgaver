@@ -71,9 +71,17 @@ namespace GPOpgaver
          */
         public static int StepsInBinarySearch(int[] integerArray, int arrayStart, int arrayEnd, int searchFor)
         {
-            int stepCounter = 1;
-            if (integerArray[arrayEnd / 2] == searchFor) return stepCounter;
-            else if (integerArray[arrayEnd / 2] < searchFor) StepsInBinarySearch(integerArray, arrayStart, arrayEnd, searchFor);
+            int steps = 1;
+            while (arrayStart <= arrayEnd)
+            {
+                int middleI = arrayStart + (arrayEnd - arrayStart) / 2;
+
+                if (integerArray[middleI] == searchFor) return steps;
+                if (integerArray[middleI] < searchFor) arrayStart = middleI + 1;
+                else arrayEnd = middleI - 1;
+                steps++;
+            }
+            return -1;
         }
         /*
          * Introduktion til Algoritmer
