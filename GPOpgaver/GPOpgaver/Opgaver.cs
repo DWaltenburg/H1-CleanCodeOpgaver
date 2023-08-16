@@ -178,7 +178,7 @@ namespace GPOpgaver
             // (.*[a-z].*[A-Z]*\d*[!@#$%^&*()+=\-{}[\]:;"'\?<>,\._\b]).*
             Regex regex = new Regex("(.*[a-z].*[A-Z]*\\d*[!@#$%^&*()+=\\-{}[\\]:;\"'\\?<>,\\._\\b]).*");
 
-            return (password.Length >= 8 && password.Length < 25) ? regex.IsMatch(password) : false;
+            return (password.Length >= 8 && password.Length < 25) && regex.IsMatch(password);
         }
     }
 }
