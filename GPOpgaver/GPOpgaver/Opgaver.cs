@@ -138,8 +138,9 @@ namespace GPOpgaver
          */
         public static long Factorial(int n)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            if (n == 0) return 1;
+
+            return n * Factorial(n - 1);
         }
         /*
          * Exercise 9.
