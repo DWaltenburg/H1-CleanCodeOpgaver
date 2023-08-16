@@ -90,8 +90,11 @@ namespace GPOpgaver
          */
         public static int InsertSortedList(List<int> sortedList, int insert)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            for (int i = 0; i < sortedList.Count; i++)
+            {
+                if (sortedList[i] > insert) return i;
+            }
+            return -1;
         }
         /*
          * Exercise 6.
