@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.Tracing;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace GPOpgaver
 {
@@ -154,8 +155,12 @@ namespace GPOpgaver
          */
         public static string IncrementString(string txt)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            var prefix = Regex.Match(txt, "^[a-zA-Z]+").Value;
+            var number = Regex.Replace(txt, "^[a-zA-Z]+", "");
+
+            var i = number != "" ? int.Parse(number) : 0;
+            i++;
+            return prefix + i.ToString(new string('0', number.Length));
         }
         /*
          * Exercise 10.
