@@ -104,8 +104,12 @@ namespace GPOpgaver
          */
         public static int[] ArrayOfMultiples(int num, int length)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            int[] array = new int[length];
+            for (int i = 0; i < length;)
+            {
+                array[i] = ++i * num;
+            }
+            return array;
         }
         /*
          * Exercise 7.
