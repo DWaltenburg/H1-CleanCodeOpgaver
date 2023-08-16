@@ -118,8 +118,16 @@ namespace GPOpgaver
          */
         public static int PowerRanger(int power, int min, int max)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            int count = 0;
+            double powResult = 0;
+            int i = 0;
+            while (powResult < max)
+            {
+                powResult = Math.Pow(i, power);
+                if (powResult >= min && powResult <= max) { count++; }
+                i++;
+            }
+            return count;
         }
         /*
          * Exercise 8.
