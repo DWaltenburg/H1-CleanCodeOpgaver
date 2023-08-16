@@ -175,8 +175,10 @@ namespace GPOpgaver
          */
         public static bool ValidatePassword(string password)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            // (.*[a-z].*[A-Z]*\d*[!@#$%^&*()+=\-{}[\]:;"'\?<>,\._\b]).*
+            Regex regex = new Regex("(.*[a-z].*[A-Z]*\\d*[!@#$%^&*()+=\\-{}[\\]:;\"'\\?<>,\\._\\b]).*");
+
+            return (password.Length >= 8 && password.Length < 25) ? regex.IsMatch(password) : false;
         }
     }
 }
